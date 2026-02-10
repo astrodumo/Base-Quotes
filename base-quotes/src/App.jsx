@@ -314,7 +314,7 @@ export default function PhilosophicalQuoteGenerator() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <Sparkles className="w-8 h-8 text-purple-400 mr-2" />
-            <h1 className="text-4xl font-bold text-white">Based Quotes</h1>
+            <h1 className="text-4xl font-bold text-white">Base Quotes</h1>
           </div>
           <p className="text-purple-200 text-lg">Find wisdom for your current state of mind</p>
         </div>
@@ -384,7 +384,7 @@ export default function PhilosophicalQuoteGenerator() {
         </div>
 
         <div className="text-center mt-6 text-purple-200 text-sm">
-          <p>Powered by Claude AI • Select your mood and receive personalized wisdom</p>
+          <p>Select your mood and receive personalized wisdom</p>
         </div>
       </div>
 
