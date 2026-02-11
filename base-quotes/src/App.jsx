@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import { Sparkles, RefreshCw } from 'lucide-react';
-
-import { sdk } from '@farcaster/miniapp-sdk';
-import { useEffect } from 'react';
-
     
 export default function PhilosophicalQuoteGenerator() {
-  useEffect(() => {
-        sdk.actions.ready();
-    }, []);
   const [selectedMood, setSelectedMood] = useState('');
   const [quote, setQuote] = useState('');
   const [author, setAuthor] = useState('');
